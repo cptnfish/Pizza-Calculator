@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Pizza>
+	<dough>
+		<name>Small</name>
+		<price>$5.95</price>
+		<calories>500</calories>
+		<protein>30</protein>
+		<fat>10</fat>
+		<carbs>250</carbs>
+		<salt>10</salt>
+	</dough>
+	<dough>
+		<name>Medium</name>
+		<price>$8.95</price>
+		<calories>750</calories>
+		<protein>45</protein>
+		<fat>15</fat>
+		<carbs>375</carbs>
+		<salt>15</salt>
+	</dough>
+	<dough>
+		<name>Large</name>
+		<price>$10.95</price>
+		<calories>1000</calories>
+		<protein>60</protein>
+		<fat>20</fat>
+		<carbs>500</carbs>
+		<salt>20</salt>
+	</dough>
+	
+	
+	
+	
+	<food>
+		<name>French Toast</name>
+		<price>$4.50</price>
+		<description>Thick slices made from our homemade sourdough bread</description>
+		<calories>600</calories>
+	</food>
+	<food>
+		<name>Homestyle Breakfast</name>
+		<price>$6.95</price>
+		<description>Two eggs, bacon or sausage, toast, and our ever-popular hash browns</description>
+		<calories>950</calories>
+	</food>
+</Pizza>
