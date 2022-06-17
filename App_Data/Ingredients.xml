@@ -67,69 +67,154 @@
 	<dough>
 		<name>Beef</name>
 		<price>$1.50</price>
+		<calories>0</calories>
+		<protein>0</protein>
+		<fat>0</fat>
+		<carbs>0</carbs>
+		<salt>0</salt>
 	</dough>
 	<dough>
 		<name>Chicken</name>
 		<price>$1.50</price>
+		<calories>0</calories>
+		<protein>0</protein>
+		<fat>0</fat>
+		<carbs>0</carbs>
+		<salt>0</salt>
 	</dough>
 	<dough>
 		<name>Bacon</name>
 		<price>$1.50</price>
+		<calories>0</calories>
+		<protein>0</protein>
+		<fat>0</fat>
+		<carbs>0</carbs>
+		<salt>0</salt>
 	</dough>
 	<dough>
 		<name>Egg</name>
 		<price>$1.50</price>
+		<calories>0</calories>
+		<protein>0</protein>
+		<fat>0</fat>
+		<carbs>0</carbs>
+		<salt>0</salt>
 	</dough>
 	<dough>
 		<name>Tomatoes</name>
 		<price>$1.50</price>
+		<calories>0</calories>
+		<protein>0</protein>
+		<fat>0</fat>
+		<carbs>0</carbs>
+		<salt>0</salt>
 	</dough>
 	<dough>
 		<name>pineapple</name>
 		<price>$1.50</price>
+		<calories>0</calories>
+		<protein>0</protein>
+		<fat>0</fat>
+		<carbs>0</carbs>
+		<salt>0</salt>
 	</dough>
 	<dough>
 		<name>Jalapenos</name>
 		<price>$1.50</price>
+		<calories>0</calories>
+		<protein>0</protein>
+		<fat>0</fat>
+		<carbs>0</carbs>
+		<salt>0</salt>
 	</dough>
 	<dough>
 		<name>Pickle</name>
 		<price>$1.50</price>
+		<calories>0</calories>
+		<protein>0</protein>
+		<fat>0</fat>
+		<carbs>0</carbs>
+		<salt>0</salt>
 	</dough>
 	<dough>
 		<name>Red Onion</name>
 		<price>$1.50</price>
+		<calories>0</calories>
+		<protein>0</protein>
+		<fat>0</fat>
+		<carbs>0</carbs>
+		<salt>0</salt>
 	</dough>
 	<dough>
 		<name>Paprika</name>
 		<price>$1.50</price>
+		<calories>0</calories>
+		<protein>0</protein>
+		<fat>0</fat>
+		<carbs>0</carbs>
+		<salt>0</salt>
 	</dough>
 	<dough>
 		<name>Spinach</name>
 		<price>$1.50</price>
+		<calories>0</calories>
+		<protein>0</protein>
+		<fat>0</fat>
+		<carbs>0</carbs>
+		<salt>0</salt>
 	</dough>
 	<dough>
 		<name>Corn</name>
 		<price>$1.50</price>
+		<calories>0</calories>
+		<protein>0</protein>
+		<fat>0</fat>
+		<carbs>0</carbs>
+		<salt>0</salt>
 	</dough>
 	<dough>
 		<name>Morzarella</name>
 		<price>$1.50</price>
+		<calories>0</calories>
+		<protein>0</protein>
+		<fat>0</fat>
+		<carbs>0</carbs>
+		<salt>0</salt>
 	</dough>
 	<dough>
 		<name>Gauda</name>
 		<price>$1.50</price>
+		<calories>0</calories>
+		<protein>0</protein>
+		<fat>0</fat>
+		<carbs>0</carbs>
+		<salt>0</salt>
 	</dough>
 	<dough>
 		<name>Parmesan </name>
 		<price>$1.50</price>
+		<calories>0</calories>
+		<protein>0</protein>
+		<fat>0</fat>
+		<carbs>0</carbs>
+		<salt>0</salt>
 	</dough>
 	<dough>
 		<name>Cheddar</name>
 		<price>$1.50</price>
+		<calories>0</calories>
+		<protein>0</protein>
+		<fat>0</fat>
+		<carbs>0</carbs>
+		<salt>0</salt>
 	</dough>
 	<dough>
 		<name>Blue Cheese</name>
 		<price>$1.50</price>
+		<calories>0</calories>
+		<protein>0</protein>
+		<fat>0</fat>
+		<carbs>0</carbs>
+		<salt>0</salt>
 	</dough>
 </Pizza>
