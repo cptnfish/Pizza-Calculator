@@ -1,47 +1,135 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-
-<Pizza>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Pizza xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<dough>
 		<name>Small</name>
-		<price>$5.95</price>
-		<calories>500</calories>
-		<protein>30</protein>
-		<fat>10</fat>
-		<carbs>250</carbs>
-		<salt>10</salt>
+		<price>$3.99</price>
+		<calories>553</calories>
+		<protein>18</protein>
+		<fat>5</fat>
+		<carbs>108</carbs>
+		<salt>2</salt>
 	</dough>
 	<dough>
 		<name>Medium</name>
-		<price>$8.95</price>
-		<calories>750</calories>
-		<protein>45</protein>
-		<fat>15</fat>
-		<carbs>375</carbs>
-		<salt>15</salt>
+		<price>$5.99</price>
+		<calories>681</calories>
+		<protein>22</protein>
+		<fat>6</fat>
+		<carbs>133</carbs>
+		<salt>3</salt>
 	</dough>
 	<dough>
 		<name>Large</name>
-		<price>$10.95</price>
-		<calories>1000</calories>
-		<protein>60</protein>
-		<fat>20</fat>
-		<carbs>500</carbs>
-		<salt>20</salt>
+		<price>$6.99</price>
+		<calories>850</calories>
+		<protein>28</protein>
+		<fat>7</fat>
+		<carbs>166</carbs>
+		<salt>4</salt>
 	</dough>
-	
-	
-	
-	
-	<food>
-		<name>French Toast</name>
-		<price>$4.50</price>
-		<description>Thick slices made from our homemade sourdough bread</description>
-		<calories>600</calories>
-	</food>
-	<food>
-		<name>Homestyle Breakfast</name>
-		<price>$6.95</price>
-		<description>Two eggs, bacon or sausage, toast, and our ever-popular hash browns</description>
-		<calories>950</calories>
-	</food>
+	<dough/>
+	<dough>
+		<name>Tuna</name>
+		<price>$1.50</price>
+		<calories>29</calories>
+		<protein>7</protein>
+		<fat>0</fat>
+		<carbs>0</carbs>
+		<salt>0</salt>
+	</dough>
+	<dough>
+		<name>Salami</name>
+		<price>$1.50</price>
+		<calories>90</calories>
+		<protein>5</protein>
+		<fat>8</fat>
+		<carbs>0</carbs>
+		<salt>0</salt>
+	</dough>
+	<dough>
+		<name>Sucuk</name>
+		<price>$1.50</price>
+		<calories>100</calories>
+		<protein>5</protein>
+		<fat>9</fat>
+		<carbs>1</carbs>
+		<salt>0</salt>
+	</dough>
+	<dough>
+		<name>Ham</name>
+		<price>$1.50</price>
+		<calories>45</calories>
+		<protein>5</protein>
+		<fat>3</fat>
+		<carbs>0</carbs>
+		<salt>0</salt>
+	</dough>
+	<dough>
+		<name>Beef</name>
+		<price>$1.50</price>
+	</dough>
+	<dough>
+		<name>Chicken</name>
+		<price>$1.50</price>
+	</dough>
+	<dough>
+		<name>Bacon</name>
+		<price>$1.50</price>
+	</dough>
+	<dough>
+		<name>Egg</name>
+		<price>$1.50</price>
+	</dough>
+	<dough>
+		<name>Tomatoes</name>
+		<price>$1.50</price>
+	</dough>
+	<dough>
+		<name>pineapple</name>
+		<price>$1.50</price>
+	</dough>
+	<dough>
+		<name>Jalapenos</name>
+		<price>$1.50</price>
+	</dough>
+	<dough>
+		<name>Pickle</name>
+		<price>$1.50</price>
+	</dough>
+	<dough>
+		<name>Red Onion</name>
+		<price>$1.50</price>
+	</dough>
+	<dough>
+		<name>Paprika</name>
+		<price>$1.50</price>
+	</dough>
+	<dough>
+		<name>Spinach</name>
+		<price>$1.50</price>
+	</dough>
+	<dough>
+		<name>Corn</name>
+		<price>$1.50</price>
+	</dough>
+	<dough>
+		<name>Morzarella</name>
+		<price>$1.50</price>
+	</dough>
+	<dough>
+		<name>Gauda</name>
+		<price>$1.50</price>
+	</dough>
+	<dough>
+		<name>Parmesan </name>
+		<price>$1.50</price>
+	</dough>
+	<dough>
+		<name>Cheddar</name>
+		<price>$1.50</price>
+	</dough>
+	<dough>
+		<name>Blue Cheese</name>
+		<price>$1.50</price>
+	</dough>
 </Pizza>
