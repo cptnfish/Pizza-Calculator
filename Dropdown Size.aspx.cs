@@ -5,6 +5,8 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Xml;
+using System.Xml.Schema;
 
 namespace Pizza_Calculator
 {
@@ -12,7 +14,13 @@ namespace Pizza_Calculator
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            /*
+            XmlDocument xmlDocument = new XmlDocument();
+            xmlDocument.Load("~/App_Data/Ingredients.xml");
 
+            XmlNode dough = xmlDocument.SelectSingleNode("/Ingredients/dough/small");
+            Response.Write($"{dough}");
+            */
         }
 
         protected void Dropdownlist0_SelectedIndexChanged(object sender, EventArgs e)
@@ -21,17 +29,18 @@ namespace Pizza_Calculator
             string selectedValue = Dropdownlist0.SelectedItem.Value;
 
             // https://www.dotnettutorial.co.in/2019/02/how-to-bind-xml-data-to-dropdownlist-in-asp-net.html
+            
+            
+            XmlDocument xDocu = new XmlDocument();
+            xDocu.Load(@"C:\Users\Danny\Source\Repos\Pizza-Calculator\App_Data\Ingredients.xml");
+            
+            XmlNode dough = xDocu.DocumentElement.SelectSingleNode($"dough/{selectedText.ToLower()}/calories");
+            string s_dough = dough.InnerText;
+             
+            Response.Write($"{s_dough}");
 
-            DataSet ds = new DataSet();
-            ds.ReadXml(Server.MapPath(@"C:\Users\dasax\source\repos\Pizza Calculator\App_Data\Ingredients.xml"));
-           // Dropdownlist0.DataValueField = "cid";
-            Dropdownlist0.DataTextField = "name";
-            Dropdownlist0.DataSource = ds;
-            Dropdownlist0.DataBind();
-            Dropdownlist0.Items.Insert(0, new ListItem("--select--", "0"));
-
-
-            /* int kcal = 0;
+            /*
+             int kcal = 0;
 
              if (selectedText == "Small")
              {
@@ -47,6 +56,7 @@ namespace Pizza_Calculator
              }
              Response.Write($"Your Pizza Size {selectedText} is {kcal} kcal"   );
             */
+
         }
     }
 }

@@ -9,14 +9,10 @@
 <body>
     <form id="form1" runat="server">
 
-      <div>
-          <asp:dropdownlist runat="server" autopostback="true" OnSelectedIndexChanged ="Dropdownlist0_SelectedIndexChanged" id="Dropdownlist0">
-         </asp:dropdownlist>
-     </div>
 
         <div>
            
-                        <asp:dropdownlist runat="server" id="Dropdownlist4">
+                 <asp:dropdownlist runat="server" autopostback="true" OnSelectedIndexChanged ="Dropdownlist0_SelectedIndexChanged" id="Dropdownlist0">
 
                  <asp:listitem text="Small" value="1"></asp:listitem>
                  <asp:listitem text="Medium" value="2"></asp:listitem>

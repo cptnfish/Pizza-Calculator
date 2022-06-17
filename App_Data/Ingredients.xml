@@ -1,42 +1,51 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="Pizza.xsl"?>
 <Pizza xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	
 	<dough>
-		<name>Small</name>
-		<price>$3.99</price>
-		<calories>553</calories>
-		<protein>18</protein>
-		<fat>5</fat>
-		<carbs>108</carbs>
-		<salt>2</salt>
+		<small>
+			<name>Small</name>
+			<size>25</size>
+			<price>$3.99</price>
+			<calories>553</calories>
+			<protein>18</protein>
+			<fat>5</fat>
+			<carbs>108</carbs>
+			<salt>2</salt>
+		</small>
+		<medium>
+			<name>Medium</name>
+			<price>$5.99</price>
+			<calories>681</calories>
+			<protein>22</protein>
+			<fat>6</fat>
+			<carbs>133</carbs>
+			<salt>3</salt>
+		</medium>
+		<large>
+			<name>Large</name>
+			<price>$6.99</price>
+			<calories>850</calories>
+			<protein>28</protein>
+			<fat>7</fat>
+			<carbs>166</carbs>
+			<salt>4</salt>
+		</large>
 	</dough>
-	<dough>
-		<name>Medium</name>
-		<price>$5.99</price>
-		<calories>681</calories>
-		<protein>22</protein>
-		<fat>6</fat>
-		<carbs>133</carbs>
-		<salt>3</salt>
-	</dough>
-	<dough>
-		<name>Large</name>
-		<price>$6.99</price>
-		<calories>850</calories>
-		<protein>28</protein>
-		<fat>7</fat>
-		<carbs>166</carbs>
-		<salt>4</salt>
-	</dough>
-	<dough/>
-	<dough>
-		<name>Tuna</name>
-		<price>$1.50</price>
-		<calories>29</calories>
-		<protein>7</protein>
-		<fat>0</fat>
-		<carbs>0</carbs>
-		<salt>0</salt>
-	</dough>
+	
+	
+	
+	<toppings>
+		<tuna>
+			<name>Tuna</name>
+			<price>$1.50</price>
+			<calories>29</calories>
+			<protein>7</protein>
+			<fat>0</fat>
+			<carbs>0</carbs>
+			<salt>0</salt>
+		</tuna>
+
 	<dough>
 		<name>Salami</name>
 		<price>$1.50</price>
@@ -217,4 +226,5 @@
 		<carbs>0</carbs>
 		<salt>0</salt>
 	</dough>
+	</toppings>	
 </Pizza>
